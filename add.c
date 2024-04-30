@@ -9,6 +9,7 @@ int inputnao()
     int jetakeinputnibo;
     printf("Enter a number: ");
     scanf("%d",&jetakeinputnibo);
+    return jetakeinputnibo;
 }
 
 // int main()
@@ -26,3 +27,10 @@ int inputnao()
 // }
 
 int main()
+{
+    int a,b;
+    a = inputnao();
+    b = inputnao();
+    printf("Sum is %d", adnanerdokan(a,b));
+    return 0;
+}
